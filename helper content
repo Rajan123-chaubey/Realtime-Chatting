@@ -1,0 +1,3 @@
+ 1 in package.json 
+ //by defalut type is commanjs which reuire packages but using module we can use it as a import module
+ //run script npm run server to start the server as  main script run ---> "server": "nodemon backend/server.js"
