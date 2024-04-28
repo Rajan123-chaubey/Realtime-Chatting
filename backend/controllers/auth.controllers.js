@@ -20,6 +20,8 @@ export const signup= async(req,res)=>{
         const boyProfilePic=`https://avatar.iran.liara.run/public/boy?username=${username}`
         const girlProfilePic=`https://avatar.iran.liara.run/public/girl?username=${username}`
        
+        //store data in db
+
         const newUser= await User.create({
             fullName,
             username,
